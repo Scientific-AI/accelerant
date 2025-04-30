@@ -1,3 +1,4 @@
-# accelerant
+accelerant
+===
+accelerant for scientific automation
 
-Accelerant for Scientific Automation
