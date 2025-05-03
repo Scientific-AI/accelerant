@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 #   
-# Author: Mike McKerns (mmckerns @caltech and @gmail)
+# Author: Mike McKerns (mmckerns @caltech and @uqfoundation)
 # Copyright (c) 2025 Scientific Automation Innovations.
 # License: 3-clause BSD.  The full license text is available at:
 #  - https://github.com/Scientific-AI/accelerant/blob/master/LICENSE
 
 __version__ = '0.0.1.dev0'
 __author__ = 'Mike McKerns'
-__contact__ = 'mmckerns@gmail.com'
+__contact__ = 'mmckerns@uqfoundation.org'
 
 
 def get_license_text(filepath):
@@ -67,7 +67,7 @@ def write_info_file(dirpath, modulename, **info):
     infofile = os.path.join(dirpath, '%s/__info__.py' % modulename)
     header = '''#!/usr/bin/env python
 #
-# Author: Mike McKerns (mmckerns @caltech and @gmail)
+# Author: Mike McKerns (mmckerns @caltech and @uqfoundation)
 # Copyright (c) 2025 Scientific Automation Innovations.
 # License: 3-clause BSD.  The full license text is available at:
 #  - https://github.com/Scientific-AI/%s/blob/master/LICENSE
