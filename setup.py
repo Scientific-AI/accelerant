@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #   
-# Author: Mike McKerns (mmckerns @caltech and @uqfoundation)
+# Author: Mike McKerns (mmckerns @scientificai.io)
 # Copyright (c) 2025-2026 Scientific Automation Innovations.
 # License: 3-clause BSD.  The full license text is available at:
 #  - https://github.com/Scientific-AI/accelerant/blob/master/LICENSE
@@ -8,8 +8,8 @@
 import os
 import sys
 # drop support for older python
-if sys.version_info < (3, 9):
-    unsupported = 'Versions of Python before 3.9 are not supported'
+if sys.version_info < (3, 10):
+    unsupported = 'Versions of Python before 3.10 are not supported'
     raise ValueError(unsupported)
 
 # get distribution meta info
@@ -54,18 +54,19 @@ setup_kwds = dict(
         'Source Code':'https://github.com/Scientific-AI/accelerant',
         'Bug Tracker':'https://github.com/Scientific-AI/accelerant/issues',
     },
-    python_requires = '>=3.9',
+    python_requires = '>=3.10',
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
         'Programming Language :: Python :: 3.13',
+        'Programming Language :: Python :: 3.14',
+        'Programming Language :: Python :: 3.15',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Scientific/Engineering',
