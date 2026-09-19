@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #   
 # Author: Mike McKerns (mmckerns @caltech and @uqfoundation)
-# Copyright (c) 2025 Scientific Automation Innovations.
+# Copyright (c) 2025-2026 Scientific Automation Innovations.
 # License: 3-clause BSD.  The full license text is available at:
 #  - https://github.com/Scientific-AI/accelerant/blob/master/LICENSE
 
@@ -68,7 +68,7 @@ def write_info_file(dirpath, modulename, **info):
     header = '''#!/usr/bin/env python
 #
 # Author: Mike McKerns (mmckerns @caltech and @uqfoundation)
-# Copyright (c) 2025 Scientific Automation Innovations.
+# Copyright (c) 2026 Scientific Automation Innovations.
 # License: 3-clause BSD.  The full license text is available at:
 #  - https://github.com/Scientific-AI/%s/blob/master/LICENSE
 ''' % modulename #XXX: author and email are hardwired in the header
